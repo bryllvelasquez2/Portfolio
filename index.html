@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryll Velasquez</title>
+    <link rel="stylesheet" href="projects/assets/css/styles.css">
+</head>
+<body>
+    <div class="main-body">
+        <!--Fixed + pos z-index-->
+        <header class="header">
+            <button class="home-button">Home</button>
+            <div class="nav-desktop">
+                <button id="aboutbtn" class="about-button nav-buttons-desktop">About</button>
+                <button id="servicesbtn" class="services-button nav-buttons-desktop">Services</button>
+                <button id="portfoliobtn" class="portfolio-button nav-buttons-desktop">Portfolio</button>
+                <button id="contactbtn" class="contact-button nav-buttons-desktop">Contact Me</button>
+
+                <button id="toggleButton" class="burger">☰</button>
+            </div>
+        </header>
+
+        <!--Not Fixed + neg z-index-->
+        <div class="home">
+            <div class="introduction-panel">           
+                <h2><small>Hello this is,</small></h2>
+                <h3><u>Bryll Velasquez</u>,</h3>
+                <h3>A <u class="col">"College Student in CITE"</u></h3>
+            </div>
+          
+           <img class="profile-pic" src="projects/assets/images/profile_nako.jpg">
+        </div>
+
+        <div class="about"> 
+            <div class="about-panel">
+                <div class="about-info">
+                    <h4 class="about-title">About me</h4>
+                    <p class="about-me-sentence">
+                    -I have a deep passion for graphics designing, 
+                    which has been a driving force in my life. Currently, 
+                    I'm dedicated to pursuing a diploma in CITE, honing my 
+                    skills and knowledge in this field. Alongside my love for 
+                    design, I have a strong curiosity about the world and love 
+                    to explore new places. This passion for exploration not only 
+                    enriches my life experiences but also inspires my creative work, 
+                    bringing a unique perspective to my designs.
+                    </p>
+
+                    <label class="about-button-skill"><b>My Goal</b></label>
+                    <p class="about-me-sentence">
+                        -My goal is to leverage my passion for graphics 
+                        designing and my ongoing education in CITE to become 
+                        a leading creative force in the industry. I aspire to 
+                        work on impactful projects that not only showcase my skills 
+                        but also make a positive difference in the world. Ultimately, 
+                        I aim to establish myself as a sought-after graphics designer 
+                        known for innovative thinking, attention to detail, and 
+                        delivering exceptional results.
+                        </p>
+                </div> 
+            </div>       
+        </div>
+
+        <div class="services">      
+            <div class="services-info">
+                <h5 class="services-title"><u>Services</u></h4>
+                <p class="service-sentence">
+                    -I offer services in graphics design, specializing in creating stunning visual experiences for your projects<br>
+                </p>
+            </div>  
+            
+            <div class="pictures-s">
+                <img class="services-pic" src="projects/assets/images/left.png" type="image">
+                <img class="services-pic" src="projects/assets/images/center.png" type="image">
+                <img class="services-pic" src="projects/assets/images/right.jpg" type="image">
+            </div>  
+        </div>
+
+        <div class="portfolio">
+            <div class="objective">
+              <h5 class="services-title"><b>Portfolio</b></h5>
+              <p5 class="par-portfolio">
+                <b>Objective</b>:<br>
+                "To secure an inplant training position in industry
+                where I can apply and enhance my skills in graphics design, 
+                learn from experienced professionals, and 
+                contribute to the success of the organization."
+              </p5>
+            </div>
+
+            <div class="competencies">
+             <h5 class="title-port">Core Competencies</h5>
+             <p5 class="par-portfolio">
+                -Proficiency in graphic design software (e.g., Adobe Photoshop, Illustrator, InDesign)<br>
+                -Strong understanding of design principles and typography<br>
+                -Ability to create visually appealing designs for various platforms (web, mobile, print)<br>
+                -Knowledge of current design trends and best practices<br>
+                -Strong communication and collaboration skills to work effectively in a team<br>
+             </p5>
+            </div>
+            <div class="skills">
+                <h5 class="title-port">Skills</h5>
+                <p5 class="par-portfolio">
+                    +Graphic Design Software: <br>-Proficiency in Adobe Creative Suite (Photoshop, Illustrator, InDesign) or other relevant software.<br>
+                    +Illustration: <br>-Ability to create custom illustrations and graphics.<br>
+                    +User Interface (UI) Design: <br>-Knowledge of UI design principles for creating intuitive user interfaces.<br>
+                </p5>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h1 class="contact-title">Contact Me</h1>
+            <div class="basic-info">
+                <h2 class="contacts">
+                    <b>My Gmail:</b><br>
+                    -bryllvelas@gmail.com<br></h2>
+                <h2 class="contacts">
+                    <b>My Number:</b><br>
+                    -09178678453<br></h2>
+
+                <h2 class="contacts">
+                    <b>My Facebook:</b><br>
+                    -bryll velasquez<br></h2>
+            </div>
+
+            <div class="message-panel">
+                <input class="tfield" value="Sender Name">
+                <input class="tfield" value="Your Email or Gmail">
+                <textarea class="tarea">Input your Message</textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav_mobile">
+        <button id="aboutbtn_m" class="nav_btn_mobile">About</button>
+        <button id="servicesbtn_m" class="nav_btn_mobile">Services</button>
+        <button id="portfoliobtn_m" class="nav_btn_mobile">Portfolio</button>
+        <button id="contactbtn_m" class="nav_btn_mobile">Contact Me</button>
+    </div>
+    
+    
+    <script src="projects/assets/js/script.js"></script>
+</body>
+</html>
